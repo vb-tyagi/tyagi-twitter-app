@@ -6,9 +6,9 @@
 
 ## Overview
 
-Tyagi's Twitter is a private, single-user web application built to automate and accelerate Bhatia Tyagi's Twitter presence. The system operates as a two-pronged content engine: it generates original tweet drafts on a daily schedule and surfaces high-value reply opportunities from monitored accounts through an AI-powered ingestion pipeline. All content is filtered, ranked, and presented in a Tinder-style swipe interface for rapid human-in-the-loop review before publishing via Typefully.
+Tyagi's Twitter is a private, single-user web application built to automate and accelerate Tyagi's Twitter presence. The system operates as a two-pronged content engine: it generates original tweet drafts on a daily schedule and surfaces high-value reply opportunities from monitored accounts through an AI-powered ingestion pipeline. All content is filtered, ranked, and presented in a Tinder-style swipe interface for rapid human-in-the-loop review before publishing via Typefully.
 
-The application runs on a React 19 + Express 4 + tRPC 11 stack, backed by a MySQL (TiDB) database, and is hosted on Manus infrastructure at `tyagitweet-mu6ci3ur.manus.space` with a custom domain at `tyagitwitter.bluecow.xyz`. Authentication is handled via a secret PIN (no OAuth dependency), and all LLM calls default to the free built-in model to minimize operational costs.
+The application runs on a React 19 + Express 4 + tRPC 11 stack, backed by a MySQL (TiDB) database. Authentication is handled via a secret PIN (no OAuth dependency), and all LLM calls default to the free built-in model to minimize operational costs.
 
 ---
 
@@ -392,13 +392,4 @@ pnpm test
 
 ---
 
-## Domains
-
-| Domain | Type |
-|--------|------|
-| `tyagitweet-mu6ci3ur.manus.space` | Auto-generated Manus domain |
-| `tyagitwitter.bluecow.xyz` | Custom domain |
-
----
-
-*Last updated: March 14, 2026*
+*Last updated: March 23, 2026*
