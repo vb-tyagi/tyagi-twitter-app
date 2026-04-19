@@ -1,6 +1,6 @@
 # Tyagi's Twitter (TT)
 
-**AI-Powered Twitter Growth Engine for @tyagicapx**
+**AI-Powered Twitter Growth Engine for @vb-tyagi**
 
 ---
 
